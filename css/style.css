@@ -307,7 +307,7 @@ header nav  ul li:last-of-type a{
 
 .clients{
     background-color: #000000;
-    height: 50vh;
+    height: 35vh;
     padding-top: 113px;
     padding-bottom: 100px;
 
@@ -351,6 +351,8 @@ header nav  ul li:last-of-type a{
 .himalays .container {
     max-width: 241px;
     margin: inherit;
+
+
 }
 .himalays h3{
     font-family: 'Poppins';
@@ -372,4 +374,72 @@ header nav  ul li:last-of-type a{
 }
 .himalays .text{
     margin-right: 119px;
+}
+
+/*section 7*/
+
+.here_you {
+    background-color: #000000;
+    height: 35vh;
+    padding-top: 113px;
+    padding-bottom: 108px;
+}
+.here_you h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.here_you p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    margin-bottom: 22px;
+}
+.here_you a{
+    background: #FFFFFF;
+    border-radius: 14px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    color: #000000;
+    padding: 5px 10px 5px 4px;
+    display: inline-flex;
+    text-decoration: none;
+    transition: 0.3s;
+    align-items: center;
+
+}
+.here_you a:before {
+    content: "";
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: black;
+    border-radius: 14px;
+    margin-right: 6px;
+    transition: 0.3s;
+}
+.here_you a:hover{
+    background: #000;
+    color: #fff;
+}
+
+.here_you a:hover:before {
+    background-color: #fff;
+}
+.here_you .container{
+    display: block;
+    text-align: center;
 }
