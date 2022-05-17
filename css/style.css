@@ -228,7 +228,7 @@ header nav  ul li:last-of-type a{
 /*section 3*/
 
 .fuji{
-    background-image: url("../image/IMAGE.jpg");
+    background-image: url("../image/IMAGEFuji.jpg");
     background-size: cover;
     height: 75vh;
     display: flex;
@@ -238,6 +238,138 @@ header nav  ul li:last-of-type a{
     position: relative;
 }
 .fuji .container{
-    max-width: 287px;
+    max-width: 298px;
     margin: inherit;
+}
+.fuji h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.fuji p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.fuji .text{
+    margin-right: 62px;
+}
+
+/*section 5*/
+
+.leafs {
+    background-image: url("../image/IMAGELeafs.jpg");
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 71px;
+    position: relative;
+}
+.leafs .container{
+    max-width: 273px;
+    margin: inherit;
+}
+.leafs h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.leafs p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+
+.leafs .text{
+    margin-right: 87px;
+}
+
+/*section 6*/
+
+.clients{
+    background-color: #000000;
+    height: 50vh;
+    padding-top: 113px;
+    padding-bottom: 100px;
+
+}
+.clients h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.clients p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color: #C0C0C0;
+    padding-bottom: 42px;
+}
+.clients .container{
+    max-width: 1168px;
+}
+
+/*section 7*/
+
+.himalays {
+    background-image: url("../image/IMAGEHimalays.jpg");
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-bottom: 71px;
+    position: relative;
+}
+.himalays .container {
+    max-width: 241px;
+    margin: inherit;
+}
+.himalays h3{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.himalays p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+}
+.himalays .text{
+    margin-right: 119px;
 }
