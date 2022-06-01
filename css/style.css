@@ -48,7 +48,7 @@ header nav  ul li:last-of-type a{
 .main_banner{
     background-image: url("../image/IMAGE.jpg");
     background-size: cover;
-    height: 91vh;
+    height: 90vh;
     display: flex;
     align-items: end;
     justify-content: center;
@@ -321,6 +321,7 @@ header nav  ul li:last-of-type a{
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 15px;
+    width: 100%;
 }
 .clients p {
     font-family: 'Poppins';
@@ -330,12 +331,27 @@ header nav  ul li:last-of-type a{
     line-height: 30px;
     text-align: center;
     color: #C0C0C0;
-    padding-bottom: 42px;
+    margin-bottom: 42px;
+    width: 100%;
 }
-.clients .container{
+.clients .owl-carousel{
     max-width: 1168px;
+    min-height: 158px;
+    margin: auto;
+    display: flex;
+    align-items: center;
 }
-
+.clients img{
+    margin-right: 109px;
+    max-width: 128px;
+}
+.owl-carousel button.owl-dot {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: springgreen;
+    border: 1px solid black;
+}
 /*section 7*/
 
 .himalays {
@@ -372,8 +388,9 @@ header nav  ul li:last-of-type a{
     line-height: 20px;
     color: #C0C0C0;
 }
-.himalays .text{
+.text{
     margin-right: 119px;
+
 }
 
 /*section 7*/
@@ -443,3 +460,4 @@ header nav  ul li:last-of-type a{
     display: block;
     text-align: center;
 }
+
